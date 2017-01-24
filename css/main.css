@@ -1,0 +1,77 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+#root {
+}
+
+div {
+  background: transparent;
+  color: inherit;
+}
+
+#header {
+  background-color: rgba(19, 18, 16, 1);
+    color: white;
+}
+
+.jumbotron {
+  background-color: inherit;
+}
+
+.background-holder {
+  position: relative;
+}
+.background {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.has-background {
+  top: 0;
+  background: transparent;
+  position: absolute;
+}
+.has-background-10 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.has-background-20 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.has-background-30 {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.has-background-40 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.page-center {
+  position: absolute;
+  width: 980px;
+  top: 0;
+  bottom: 0;
+  left: calc((100% - 980px) * 0.5);
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: initial;
+}
+
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotron,
+  .container-fluid .jumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 88px;
+  }
+}
