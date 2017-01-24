@@ -1,10 +1,18 @@
 body {
   background-color: black;
   color: white;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 div {
   background: transparent;
   color: inherit;
+}
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: initial;
+  width: 100%;
 }
 
 #root {
@@ -13,15 +21,14 @@ div {
   background-color: rgba(19, 18, 16, 1);
   color: white;
 }
-
-#header {
+#episodes {
   background-color: rgba(19, 18, 16, 1);
-    color: white;
+  color: white;
+  padding-top: 50px;
 }
 
 .section {
   position: relative;
-  display: block;
 }
 .page-center {
   position: absolute;
@@ -38,6 +45,7 @@ div {
 
 .jumbotron {
   background-color: inherit;
+  margin-bottom: 0;
 }
 
 .background-holder {
@@ -50,14 +58,15 @@ div {
   z-index: -1;
 }
 .background-image {
+  display: block;
   position: absolute;
   min-width: 100%;
-  height: 700px; // this stretches the image if ultra-wide monitor
+  background-size:100% 100%;
 }
 .has-background {
   top: 0;
   min-width: 100%;
-  min-height: 700px;
+  height: 100%;
   top: 0;
   background: transparent;
   position: absolute;
@@ -75,8 +84,22 @@ div {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-span {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: initial;
+.episode {
+  height: 400px;
+  padding: 20px;
+  text-align: center;
+}
+.episode-description {
+  width: 100%;
+  height: 200px;
+  top: 0;
+}
+.episode-image {
+  width: 100%;
+  height: 200px;
+  bottom: 0;
+}
+.episode-image img {
+  max-height: 200px;
+  left: 10px;
 }
