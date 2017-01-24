@@ -1,0 +1,10 @@
+
+@media screen and (max-width: 979px) {
+  .background-image {
+    left: -500px;
+  }
+  .page-center {
+    width: 100%;
+    left: 0;
+  }
+}

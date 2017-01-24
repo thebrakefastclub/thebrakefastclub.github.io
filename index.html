@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -19,6 +20,8 @@
   <![endif]-->
 
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/responsive_wide.css">
+  <link rel="stylesheet" href="./css/responsive_narrow.css">
 
   <meta name="keywords" content="brakefast club, brakefastpod, cars, automobiles, racing, track, car, club, automobile, rally, f1, touring, rallycross, autocross, race, hpde">
   <meta property="og:title" content="The Brakefast Club Podcast">
@@ -29,20 +32,26 @@
 
 <body>
   <div id="root">
-    <div id="header">
-      <div id="header-right">
-        <div id="social">
-          <div>
-            <a href="https://www.facebook.com/thebrakefastclub/" target="_blank">
-              <div>
-                <div></div><img alt="" src="./icon/facebook_icon.png"></div>
-            </a>
-          </div>
-          <div>
-            <a href="https://twitter.com/BrakefastPod" target="_blank">
-              <div>
-                <div></div><img alt="" src="./icon/twitter_icon.png"></div>
-            </a>
+    <div id="header" style="height: 50px;">
+      <div class="page-center">
+        <div id="header-right" class="pull-right">
+          <div id="social" style="line-height: 50px;">
+            <span>
+              <div class="pull-left icon">
+                <a href="https://www.facebook.com/thebrakefastclub/" target="_blank">
+                  <div>
+                    <img alt="" src="./icon/facebook_icon.png">
+                  </div>
+                </a>
+              </div>
+              <div class="pull-left icon">
+                <a href="https://twitter.com/BrakefastPod" target="_blank">
+                  <div>
+                    <img alt="" src="./icon/twitter_icon.png">
+                  </div>
+                </a>
+              </div>
+            </span>
           </div>
         </div>
       </div>
@@ -50,23 +59,40 @@
     <!-- end header -->
 
     <div id="content">
-      <div id="home" class="jumbotron background-holder">
-        <div class="has-background has-background-40" style="width: 1906px; height: 700px;">
+      <div id="home" class="section jumbotron background-holder">
+        <div class="has-background has-background-40">
           <div class="page-center" style="line-height: 700px;">
             <span>
               <h1>INTRODUCING THE BRAKEFAST CLUB PODCAST!</h1>
               <h2>First episode is out!</h2>
-              <p>The Brakefast Club is a podcast about cars and random automotive related things. We're a six guys from Chicago who go on road trips, autocross, and do high performance driving.<br><br>Listen on iTunes, Stitcher, Google Play, or your favorite podcatcher</p>
+              <p>The Brakefast Club is a podcast about cars and random automotive related things. We're six guys from Chicago who go on road trips, autocross, and do high performance driving.<br><br>Listen on iTunes, Stitcher, Google Play, or your favorite podcatcher</p>
             </span>
           </div>
         </div>
         <div class="background">
-          <img alt="" src="./background/home_background.webp" style="width: 1906px; height: 700px;">
+          <img alt="" src="./background/home_background.webp" class="background-image">
         </div>
-      </div>
-      <div id="episodes">
-      </div>
-    </div>
+      </div> <!-- end home -->
+
+<!--
+      <div id="episodes" class="section">
+        <div id="episodes-title" class="background-holder">
+          <div class="has-background has-background-40" style="width: 1906px; height: 700px;">
+            <div class="page-center" style="line-height: 700px;">
+              <span>
+                  <h1>INTRODUCING THE BRAKEFAST CLUB PODCAST!</h1>
+                  <h2>First episode is out!</h2>
+                  <p>The Brakefast Club is a podcast about cars and random automotive related things. We're a six guys from Chicago who go on road trips, autocross, and do high performance driving.<br><br>Listen on iTunes, Stitcher, Google Play, or your favorite podcatcher</p>
+                </span>
+            </div>
+          </div>
+          <div class="background">
+            <img alt="" src="./background/mic_background.webp" style="width: 1906px; height: 700px;">
+          </div>
+        </div>
+      </div> <!-- end episodes -->
+
+    </div> <!-- end content -->
 
   </div>
 
