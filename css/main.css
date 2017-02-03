@@ -20,21 +20,20 @@ span {
 #header {
   background-color: rgba(19, 18, 16, 1);
   color: white;
+  height: 50px;
 }
 #home {
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../background/home_background.webp);
-    z-index: -1;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../background/home_background.png);
     min-height: 700px;
 }
 #episodes-title {
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../background/mic_background.webp);
-    z-index: -1;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../background/mic_background.png);
     min-height: 560px;
 }
 #episodes {
@@ -43,8 +42,13 @@ span {
   padding-top: 50px;
 }
 
-.section {
-  position: relative;
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box span {
+  margin: auto;
 }
 
 .icon {
