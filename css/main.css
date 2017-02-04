@@ -26,14 +26,16 @@ span {
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../background/home_background.png);
+    background-image: url(../background/home_background.png);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
     min-height: 700px;
 }
 #episodes-title {
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../background/mic_background.png);
+    background-image: url(../background/mic_background.png);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
     min-height: 560px;
 }
 #episodes {
