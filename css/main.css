@@ -44,6 +44,28 @@ span {
   padding-top: 50px;
 }
 
+.listen-link {
+  background: none;
+	border: solid #FFCC00;
+	color: #FFCC00;
+}
+.listen-link:hover {
+  background: #FFCC00;
+}
+.listen-link-sm {
+  margin: 0 10px;
+  border-radius: 24px;
+  border-width: 1px;
+}
+.listen-link-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  margin: 0 10px;
+  border-radius: 24px;
+  border-width: 2px;
+}
+
 .box {
   display: flex;
   justify-content: center;
