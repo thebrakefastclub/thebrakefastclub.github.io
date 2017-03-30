@@ -3,6 +3,7 @@ body {
   color: white;
   max-width: 100%;
   overflow-x: hidden;
+  font-family: Open Sans;
 }
 div {
   background: transparent;
@@ -41,7 +42,7 @@ span {
 #episodes {
   background-color: rgba(19, 18, 16, 1);
   color: white;
-  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .listen-link {
@@ -75,6 +76,12 @@ span {
   margin: auto;
 }
 
+.header-content {
+  color: white;
+  font
+  font-size: 13pt;
+}
+
 .icon {
   padding-left: 5px;
   padding-right: 5px;
@@ -87,8 +94,7 @@ span {
 }
 
 .episode {
-  height: 400px;
-  padding: 20px;
+  padding: 40px 20px;
   text-align: center;
 }
 .episode-description {
