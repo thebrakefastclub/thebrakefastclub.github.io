@@ -23,14 +23,20 @@ span {
   color: white;
   height: 50px;
 }
-#home {
+.jumbotron-background {
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
-    background-image: url(../background/home_background.png);
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.4);
     min-height: 500px;
     padding-top: 20px;
+}
+#home-background {
+    background-image: url(../background/home_background.png);
+}
+#team-background {
+    background-image: url(../background/team_background.png);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.7);
 }
 #episodes {
   background-color: rgba(19, 18, 16, 1);
@@ -103,5 +109,29 @@ span {
 }
 .episode-image img {
   max-height: 200px;
+  left: 10px;
+}
+
+
+.nav-link {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.team-member {
+  padding: 40px 20px;
+  text-align: center;
+}
+.team-description {
+  width: 100%;
+  top: 0;
+  margin-bottom: 15px;
+}
+.team-image {
+  width: 100%;
+  height: 300px;
+  bottom: 0;
+}
+.team-image img {
+  max-height: 300px;
   left: 10px;
 }
